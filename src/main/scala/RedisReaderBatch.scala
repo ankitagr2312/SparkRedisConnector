@@ -4,7 +4,7 @@ import com.redislabs.provider.redis._
 object RedisReaderBatch {
   def main(args: Array[String]): Unit = {
 
-    val arrayOfKeys = Array("ank","ankit")
+    val arrayOfKeys = Array("ank", "ankit")
     val spark = SparkSession
       .builder()
       .appName("RedisReader")

@@ -1,4 +1,3 @@
-import RedisReaderBatch.Person
 import org.apache.spark.sql.SparkSession
 
 class RedisWriterBatch {
